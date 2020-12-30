@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans>  
+<service  xmlns="http://xfire.codehaus.org/config/1.0">  
+    <name>HelloService</name>  
+    <serviceClass>com.cneport.wsinterface.WebService1</serviceClass>  
+    <implementationClass>com.cneport.wsinterface.impl.WebService1Impl</implementationClass>  
+</service>      
+</beans>
