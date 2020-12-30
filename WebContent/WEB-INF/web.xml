@@ -5,6 +5,12 @@
     <servlet-class>
         org.codehaus.xfire.transport.http.XFireConfigurableServlet  
     </servlet-class>
+<!--  反编译  XFireConfigurableServlet 默认是去WEB-INF下的去找“META-INF/xfire/services.xml”文件，
+  如果不想放置在那里,可通过配置初始化参数：config，注意config/services.xml表示在WEB-INF下的config下的services.xml
+     <init-param>
+      <param-name>config</param-name>
+      <param-value>config/services.xml</param-value>
+    </init-param> -->
   </servlet>
   <servlet-mapping>
     <servlet-name>XFireServlet</servlet-name>
